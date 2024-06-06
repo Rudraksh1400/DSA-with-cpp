@@ -1,0 +1,24 @@
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     // Increment and Decrement
+//     int x=5;
+//     cout<<x++<<endl;
+//     cout<<x;
+//} 
+// C++ program to demonstrate 
+// the use of rand() 
+#include <cstdlib> 
+#include <iostream> 
+using namespace std; 
+
+int main() 
+{ 
+	// This program will create some sequence of 
+	// random numbers on every program run 
+	for (int i = 0; i < 5; i++) 
+		cout << rand() << " "; 
+
+	return 0; 
+}
